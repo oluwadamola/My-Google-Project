@@ -1,0 +1,85 @@
+body{
+	font-size: arial,sans-serif;
+	color:#222;
+}
+header {
+	margin-top:10px;
+	width: 350px;
+	display: block;
+	float: right;	
+	
+}
+nav a{
+    	margin-left:  10px;
+    	padding-right: 15px;
+}
+.clearfix{
+	overflow: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#signin{
+   background-color: blue;
+   width: 90px;
+   height: 10px;
+   border: 1px solid blue;
+   border-radius: 2px;
+   font-size: 14px;
+   opacity: 0.90;
+}
+section{
+
+	margin-top: 170px;
+	align-content: center;
+	display:block;
+}
+input{
+	width: 450px;
+	height: 40px;
+    border-radius:2px;
+}
+
+button{
+	margin: 1px;
+	border-radius: 2px;
+	height: 30px;
+	width : 150px;
+}
+button:hover{
+	background-color: red;
+}
+p a{
+	color:blue;
+}
+
+ footer{
+	margin-top: 150px;
+	color:#666;
+	height: 10px;
+	padding: 15px;
+	width: 100%;
+	background-color: #e4e4e4;
+	opacity:0.75;
+	position: fixed;
+	  bottom: 0;
+      left: 0;
+}
+.first{
+	float:left;
+}
+.first a{
+		margin-left:  25px;
+		text-align: center;
+		margin-top: 100px;
+}
+.second{
+	float:right;
+	padding-right: 15px;
+}
+.second a{
+		margin-right: 25px;
+}
